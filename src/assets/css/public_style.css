@@ -1,0 +1,167 @@
+html,
+body,
+#app,
+.index {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+a {
+	cursor: pointer;
+}
+
+
+/*自定义样式*/
+
+
+/*通用字颜色*/
+
+.color-gray {
+	color: #687596;
+}
+
+.color-blue {
+	color: #409EFF;
+}
+
+.cRed {
+	color: red;
+	vertical-align: sub;
+}
+
+.float-right {
+	float: right;
+}
+
+
+/*页面内部标题行*/
+
+.gray-row {
+	background-color: #dedede;
+	color: #687596;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 14px;
+}
+
+
+/*分页器样式*/
+
+.page-box {
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+/*文字超出显示省略号*/
+
+.text-over {
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.navMenu {
+	height: 100%;
+}
+
+
+/*页面宽度*/
+
+.left-content {
+	background: #fff;
+	width: 70%;
+}
+
+.left-all-content {
+	background: #fff;
+	width: 100%;
+}
+
+.right-content {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 29%;
+	background: #fff;
+	height: 100%;
+	overflow: auto;
+}
+
+.right-content::-webkit-scrollbar {
+	width: 1px !important
+}
+
+
+/*左侧目录选中背景色*/
+
+.navMenu .el-menu-item.is-active {
+	background: #4a8be8 !important;
+}
+
+
+/*掩藏菜单目录滚动条*/
+
+.el-aside::-webkit-scrollbar {
+	display: none;
+}
+
+
+/*element-ui 样式重写*/
+
+.el-main {
+	padding: 0 0 0 20px;
+}
+
+.tags .el-menu--horizontal>.el-menu-item {
+	height: 51px;
+	line-height: 51px;
+}
+
+
+/*输入框高度*/
+
+.el-input {
+	font-size: 13px;
+}
+
+.el-input .el-input__inner {
+	height: 32px;
+	line-height: 32px;
+}
+
+.select-content .el-input .el-input__icon {
+	line-height: 32px;
+}
+
+
+/*按钮高度*/
+
+.el-button {
+	padding: 8px 20px;
+}
+
+
+/*el-table样式*/
+
+.el-table {
+	font-size: 12px;
+}
+.el-table thead .el-checkbox{
+	display: none;
+}
+
+/* 信息筛选栏 */
+
+.title-search {
+	background: #dedede;
+	height: 42px;
+	line-height: 42px;
+	color: #687596;
+	font-size: 14px;
+}
